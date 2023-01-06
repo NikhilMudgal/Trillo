@@ -2,7 +2,7 @@
     background-color: var(--color-grey-light-1);
     max-width: 120rem;
     margin: 8rem auto;
-    box-shadow: var(--shadow-dark);
+    box-shadow: var(--shadow-dark); //using css custom variable.
     min-height: 50rem;
 }
 
