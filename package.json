@@ -1,0 +1,19 @@
+{
+  "name": "Trillo",
+  "version": "1.0.0",
+  "description": "Trillo App",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilMudgal/Trillo.git"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
