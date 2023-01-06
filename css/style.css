@@ -9,7 +9,9 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --color-white: #fff; }
+  --color-white: #fff;
+  --shadow-dark: 0 2rem 6rem var(0, 0, 0,.3)
+; }
 
 * {
   margin: 0;
@@ -34,8 +36,13 @@ body {
   min-height: 100vh; }
 
 .container {
+  background-color: var(--color-grey-light-1);
+  max-width: 120rem;
+  margin: 8rem auto;
+  box-shadow: var(--shadow-dark);
+  min-height: 50rem; }
+
+.header {
+  height: 7rem;
   background-color: var(--color-white);
-  width: 60%;
-  position: absolute;
-  top: 30%;
-  left: 30%; }
+  border-bottom: var(--color-grey-light-2); }
