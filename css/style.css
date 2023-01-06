@@ -8,7 +8,8 @@
   --color-grey-light-4: #ccc;
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
-  --color-grey-dark-3: #999; }
+  --color-grey-dark-3: #999;
+  --color-white: #fff; }
 
 * {
   margin: 0;
@@ -31,3 +32,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
+
+.container {
+  background-color: var(--color-white);
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 30%; }

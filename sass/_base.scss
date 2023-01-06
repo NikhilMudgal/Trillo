@@ -1,7 +1,7 @@
 
 :root {
     // all the variables available are accesible by all children
-    // we use -- to declare the custom properties.
+    // we use -- to declare the custom css properties.
     
     --color-primary: #eb2f64;
     --color-primary-light: #FF3366;
@@ -15,8 +15,7 @@
     --color-grey-dark-1: #333;
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
-
-
+    --color-white: #fff;
 }
 
 * {
