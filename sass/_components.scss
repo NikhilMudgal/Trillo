@@ -203,3 +203,38 @@
         display: block;
     }
 }
+
+
+/////////////////////////////
+/// Hotel overview
+.overview {
+    display: flex;
+    &__heading {
+        text-transform: uppercase;
+    }
+    &__stars {
+        margin: auto; 
+    }
+
+    &__icon-stars, &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary-light);
+    }
+
+    &__location {
+        
+    }
+
+    &__rating {
+
+    }
+
+    &__rating-average {
+
+    }
+
+    &__rating-count {
+
+    }
+}

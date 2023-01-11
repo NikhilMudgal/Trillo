@@ -194,3 +194,14 @@ body {
   .gallery__photo {
     width: 100%;
     display: block; }
+
+.overview {
+  display: flex; }
+  .overview__heading {
+    text-transform: uppercase; }
+  .overview__stars {
+    margin: auto; }
+  .overview__icon-stars, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary-light); }
