@@ -189,3 +189,11 @@ body {
   text-align: center;
   padding: 2.5rem;
   color: var(--color-grey-light-4); }
+
+.gallery {
+  width: 100%;
+  display: flex; }
+  .gallery__item {
+    width: 33.33%; }
+  .gallery__photo {
+    width: 100%; }

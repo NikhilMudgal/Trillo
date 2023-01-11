@@ -190,3 +190,18 @@
     padding: 2.5rem;
     color: var(--color-grey-light-4);
 }
+
+
+//////////////////////////////
+/// gallery
+.gallery {
+    width: 100%;
+    display: flex;
+
+    &__item {
+        width: 33.33%;
+    }
+    &__photo {
+        width: 100%;
+    }
+}
