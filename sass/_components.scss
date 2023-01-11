@@ -195,13 +195,11 @@
 //////////////////////////////
 /// gallery
 .gallery {
-    width: 100%;
     display: flex;
 
-    &__item {
-        width: 33.33%;
-    }
+    
     &__photo {
         width: 100%;
+        display: block;
     }
 }

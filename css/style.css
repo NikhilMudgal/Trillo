@@ -62,7 +62,6 @@ body {
   justify-content: space-between; }
 
 .hotel-view {
-  background-color: green;
   height: 80rem;
   flex: 1; }
 
@@ -191,9 +190,7 @@ body {
   color: var(--color-grey-light-4); }
 
 .gallery {
-  width: 100%;
   display: flex; }
-  .gallery__item {
-    width: 33.33%; }
   .gallery__photo {
-    width: 100%; }
+    width: 100%;
+    display: block; }
