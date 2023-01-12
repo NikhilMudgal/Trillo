@@ -313,7 +313,6 @@ body {
   font-size: 1.3rem;
   color: var(--color-grey-dark-3);
   display: flex;
-  justify-content: space-between;
   align-items: center; }
   .recommend__photo {
     box-sizing: content-box;
@@ -323,3 +322,5 @@ body {
     border: 3px solid var(--color-white); }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
+  .recommend__count {
+    margin-right: auto; }

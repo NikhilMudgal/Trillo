@@ -355,7 +355,6 @@
     font-size: 1.3rem;
     color: var(--color-grey-dark-3);
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     &__photo {
@@ -371,7 +370,7 @@
     }
 
     &__count {
-
+        margin-right: auto;
     }
 
     &__friends {
