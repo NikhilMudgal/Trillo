@@ -11,6 +11,7 @@
   --color-grey-dark-3: #999;
   --color-white: #fff;
   --shadow-dark: 0 2rem 6rem var(0, 0, 0,.3);
+  --shadow-light: 0 2rem 5rem rgba(0,0,0, .06);
   --line: 1px solid var(--color-grey-light-2); }
 
 * {
@@ -72,7 +73,10 @@ body {
   border-bottom: var(--line); }
 
 .description {
-  background-color: red;
+  font-size: 1.4rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem; }
 
