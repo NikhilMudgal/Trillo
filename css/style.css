@@ -80,7 +80,10 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .logo {
   height: 3.25rem;
@@ -323,3 +326,26 @@ body {
       margin-right: -1.5rem; }
   .recommend__count {
     margin-right: auto; }
+
+.review {
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 2.5rem; }
+  .review__text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
+  .review__user {
+    display: flex; }
+  .review__photo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%; }
+  .review__user-box {
+    margin-left: 1rem; }
+  .review__user-name {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .review__rating {
+    color: var(--color-primary-light);
+    font-size: 2rem;
+    margin-left: auto; }
