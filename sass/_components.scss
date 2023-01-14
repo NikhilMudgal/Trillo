@@ -491,9 +491,13 @@
     position: relative;
     overflow: hidden;
 
+    
     &__visible {
         display: inline-block;
         padding: 2rem 7.5rem;
+        transition: all .3s;
+        height: 100%;
+        width: 100%;
     }
 
     &__invisible {
@@ -504,5 +508,15 @@
         padding: 2rem 0;
         height: 100%;
         width: 100%;
+        transition: all .3s;
     }
+
+    &:hover &__visible {
+         transform: translateY(100%);
+    }
+
+     &:hover &__invisible {
+         top: 0;
+        }
+    
 }

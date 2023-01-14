@@ -398,7 +398,10 @@ body {
   overflow: hidden; }
   .btn__visible {
     display: inline-block;
-    padding: 2rem 7.5rem; }
+    padding: 2rem 7.5rem;
+    transition: all .3s;
+    height: 100%;
+    width: 100%; }
   .btn__invisible {
     display: inline-block;
     position: absolute;
@@ -406,4 +409,9 @@ body {
     top: -100%;
     padding: 2rem 0;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    transition: all .3s; }
+  .btn:hover .btn__visible {
+    transform: translateY(100%); }
+  .btn:hover .btn__invisible {
+    top: 0; }
