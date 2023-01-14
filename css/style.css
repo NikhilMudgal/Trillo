@@ -42,6 +42,9 @@ body {
   margin: 8rem auto;
   box-shadow: var(--shadow-dark);
   min-height: 50rem; }
+  @media only screen and (max-width: 75em) {
+    .container {
+      margin: 0; } }
 
 .header {
   font-size: 1.4rem;

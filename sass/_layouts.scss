@@ -4,6 +4,10 @@
     margin: 8rem auto;
     box-shadow: var(--shadow-dark); //using css custom variable.
     min-height: 50rem;
+
+    @media only screen and (max-width: $bp-largest) {
+        margin: 0;
+    }
 }
 
 .header {
