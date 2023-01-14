@@ -15,6 +15,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+        background-color: var(--color-grey-light-2);
+    }
+
     &__input {
         font-family: inherit; // input element does not directly inherit the font family of root element. so we use inherit property
         font-size: inherit;
