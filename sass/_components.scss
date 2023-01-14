@@ -185,6 +185,10 @@
             justify-content: center;
             padding: 2rem;
          }
+         @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+            padding: 1rem;
+         }
     }
 
     &__icon {
@@ -192,6 +196,12 @@
         height: 1.75rem;
         fill: currentColor; // current color is the color of the parent element
         margin-right: 2rem;
+        @media only screen and (max-width: $bp-small) {
+            margin-right: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-bottom: .7rem;
+         }
     }
 }
 
