@@ -361,6 +361,8 @@ body {
       margin-right: -2rem; }
   .recommend__count {
     margin-right: auto; }
+  .recommend__friends {
+    display: flex; }
 
 .review {
   background-color: var(--color-white);
