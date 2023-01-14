@@ -408,6 +408,11 @@
     position: relative;
     overflow: hidden;
 
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem;
+        margin-bottom: 3rem;
+     }
+
     &__text {
         margin-bottom: 2rem;
         z-index: 2;
@@ -485,6 +490,11 @@
     padding: 3.5rem;
     text-align: center;
     background-color: var(--color-white);
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2.5rem 0;
+     }
+
     &__book-now {
         font-size: 2rem;
         font-weight: 300;
