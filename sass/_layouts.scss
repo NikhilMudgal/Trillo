@@ -7,6 +7,9 @@
 
     @media only screen and (max-width: $bp-largest) {
         margin: 0;
+        // onchanging the font size in html when the screen size is <= 1100px, 1rem value changes which becomes 8px on setting font size: 50% due to which padding comes back. so we defined max-width and width to 100%
+        max-width: 100%;
+        width: 100%;
     }
 }
 
