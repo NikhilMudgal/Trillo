@@ -376,19 +376,34 @@ body {
   .review__button:hover span {
     margin-left: 8px; }
 
-.action {
-  background-color: var(--color-white);
+.cta {
+  padding: 3.5rem;
   text-align: center;
-  padding: 3rem 1.5rem;
-  font-size: 1.75rem; }
-  .action__text {
+  background-color: var(--color-white); }
+  .cta__book-now {
+    font-size: 2rem;
+    font-weight: 300;
     text-transform: uppercase;
-    color: var(--color-grey-dark-3);
-    padding: 2rem 0; }
-  .action__button {
-    color: var(--color-white);
-    padding: 2rem 8rem;
-    border-radius: 30px;
-    text-transform: uppercase;
-    border: none;
-    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary)); }
+    margin-bottom: 2.5rem; }
+
+.btn {
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary));
+  color: var(--color-white);
+  position: relative;
+  overflow: hidden; }
+  .btn__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    padding: 2rem 0;
+    height: 100%;
+    width: 100%; }
